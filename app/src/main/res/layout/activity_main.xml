@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.arucodemo.CameraHelper
+
+        android:id="@+id/camera_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/ToggleBoardSingleMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Find Single Marker"
+            android:textOn="Find Board" />
+
+        <ToggleButton
+            android:id="@+id/ToggleDrawMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Enable Draw Marker"
+            android:textOn="Disable Draw Marker" />
+
+        <ToggleButton
+            android:id="@+id/ToggleDrawAxis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Enable Draw Axis"
+            android:textOn="Disable Draw Axis" />
+
+        <ToggleButton
+            android:id="@+id/ToggleMarkerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Enable Marker Image"
+            android:textOn="Disable Marker Image" />
+
+
+        <ToggleButton
+            android:id="@+id/ToggleDrawModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Enable Model"
+            android:textOn="Disable Model" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

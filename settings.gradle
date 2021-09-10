@@ -1,0 +1,3 @@
+rootProject.name = "ArUcoDemo"
+include ':app'
+include ':opencv-android-sdk-with-contrib-master'

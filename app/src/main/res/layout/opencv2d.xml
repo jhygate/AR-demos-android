@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.arucodemo.CameraHelper
+        android:id="@+id/camera_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/buttonEdge"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="edgeSwitch"
+            android:text="Edge" />
+
+        <Button
+            android:id="@+id/buttonGrey"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="greySwitch"
+            android:text="Grey" />
+
+        <Button
+            android:id="@+id/buttonRGBA"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="RGBASwitch"
+            android:text="RGBA" />
+
+        <Button
+            android:id="@+id/buttonFill"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="FillSwitch"
+            android:text="Fill" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
